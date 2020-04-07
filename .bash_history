@@ -508,3 +508,10 @@ python manage.py runserver 8080
 cd ..
 cd ..
 cd ..
+git add .
+git commit -m "0407"
+git push origin master
+git init
+git remote add origin https://github.com/Jeonseoghyeon/Cloud9-IDE-practice.git
+git remote remove origin
+git remote add origin https://github.com/Jeonseoghyeon/Cloud9-IDE-practice.git
