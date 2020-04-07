@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h1>{{ article.title }}</h1>
+<p>{{ article.content }}</p>
+<a href="/articles/{{article.id}}/delete/">삭제</a>
+<a href="/articles/{{article.id}}/edit/">수정</a>
+<a href="{% url 'articles:index' %}">HOME으로</a>
+
+{% endblock %}

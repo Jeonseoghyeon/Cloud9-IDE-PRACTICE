@@ -1,0 +1,11 @@
+
+{% extends 'base.html' %}
+{% block body %}
+<form action="{% url 'articles:create' %}" method="POST">
+    {% csrf_token %}
+    <input type="text" name="title">
+    <input type="text" name="content">
+    <input type="submit">
+</form>
+<a href="{% url 'articles:index' %}">HOME으로</a>
+{% endblock %}

@@ -1,42 +1,3 @@
-python -V
-python -v
-python -V
-python a.py 
-python a.py 
-python b.py
-pip install django==2. 1. 15
-pip install django==2.1.15
-django-admin startproject django_intro
-cd django_intro/
-python manage.py runserver 8080
-ls
-ls
-python manage.py run server 8080
-cd ..
-python b.py
-ㅣㄴ
-ls
-cd django_intro/
-python manage.py startapp pages
-ls
-ㅈ
-pwd
-pwd
-ls
-ls
-ls
-ls
-pwd
-ls
-cd ~
-cd ..
-cd ..
-cd
-cd
-cd ..
-cd ..
-cd ..
-cd ~
 ls
 cd
 cd
@@ -465,3 +426,85 @@ git commit -m "0401"
 git push origin master
 git init
 git add .
+git add .
+git commit -m "0401"
+git remote add origin https://github.com/Jeonseoghyeon/Cloud9-IDE-PRACTICE.git
+git push origin master
+cd ~
+cd practice/
+cd 0406/
+django-admin startproject crud
+cd crud/
+python manage.py startapp articles
+python manage.py runserver 8080
+python manage.py runserver 8080
+python manage.py makemigrations
+python manage.py migrate
+cd practice/
+cd 0406
+cd crud/
+python manage.py runserver 8080
+python manage.py runserver 8080
+python manage.py runserver 8080
+python manage.py runserver 8080
+cd practice/
+cd 0406
+cd crud/
+python manage.py runserver 8080
+python manage.py makemigrations
+python manage.py migrate
+python manage.py  runserver 8080
+cd practice/
+cd ..
+cd PRACTICE/
+cd 0407/
+django-admin startproject django_form
+cd django_form/
+python manage.py  runserver 8080
+python manage.py makemigrations
+vi .gitignore
+cd PRACTICE/
+cd 0407/
+cd django_form/
+python manage.py migrate
+python manage.py showmigrations
+python manage.py startapp articles
+python manage.py makemigration
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py runserver 8080
+python manage.py createsuperuser
+python manage.py makemigrations
+python migrate
+python manage.py runserver 8080
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver 8080
+python manage.py runserver 8080
+python manage.py runserver 8080
+cd practice/
+cd 0407
+django-admin startproject crud
+cd crud/
+python manage.py startapp articles
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py migrate
+python manage.py showmigrations
+python manage.py createsuperuser
+python manage.py runserver 8080
+python manage.py  makemigrations
+python manage.py  migrate
+python manage.py runserver 8080
+cd practice/
+cd 040
+cd 0407
+cd crud/
+python manage.py runserver 8080
+python manage.py runserver 8080
+python manage.py runserver 8080
+cd ..
+cd ..
+cd ..
